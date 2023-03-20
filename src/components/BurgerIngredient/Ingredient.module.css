@@ -1,0 +1,17 @@
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+.cost {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.Counter {
+    position: absolute;
+}

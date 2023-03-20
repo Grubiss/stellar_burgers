@@ -1,0 +1,52 @@
+.Header {
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c21;
+}
+
+.Header_nav {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex: 0 0 auto;
+}
+
+.Wrapper {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.Header_nav__list {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.Header_nav__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #8585ad;
+}
+a:hover {
+    color: #f2f2f3;
+}
+
+.Header_nav__container {
+    flex-grow: 0;
+}
+.Account {
+    flex-grow: 1;
+    justify-content: end;
+}
+
+.Logo {
+    text-align: center;
+    flex-grow: 1.4;
+}
